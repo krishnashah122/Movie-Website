@@ -1,10 +1,69 @@
-# Movie-Website
-I have made a Movie website using TMDB API. It will feature the latest playing, popular, top rated and upcoming movies all in one place. The used technologies are HTML, CSS, SASS & ReactJS.
+# Movie Suggest
 
-# Preview
+This is a movie database app that allow users to explore the latest playing, popular, top-rated, and upcoming movies. The app is built using HTML, CSS, SASS, React.js, and JavaScript. It fetches movie data from The Movie Database (TMDB) API to provide up-to-date information on a wide range of films.
+
+## Preview
+
+### [Preview Link](https://moviesuggest.netlify.app/)
 
 ![Homepage](https://user-images.githubusercontent.com/64410232/215309371-c3dc406e-e77a-40cb-bcbb-c28d476a8cd9.png)
 
-![MovieDetail](https://user-images.githubusercontent.com/64410232/215309510-71b323cf-8276-4beb-82ef-8093200b2244.png)
+## Features
 
-![Movielist](https://user-images.githubusercontent.com/64410232/215309532-84e4752d-3af0-4922-b6ed-7ffacd652ebd.png)
+- Browse the latest playing, popular, top-rated, and upcoming movies.
+- Detailed information about each movie, including title, release date, overview, and ratings.
+- User-friendly interface for easy navigation and exploration of movie data.
+
+
+## Technologies Used
+
+- HTML
+- CSS
+- SASS
+- React.js
+- JavaScript
+- TMDB API
+
+
+## Getting Started
+
+To run the app locally, follow these steps:
+
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/krishnashah122/Movie-Website.git
+    ````
+
+2. Navigate to the project directory:
+   ```bash
+   cd Movie-Website
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Obtain your TMDB API key from TMDB website (https://developer.themoviedb.org/docs/getting-started) and replace your API key with your actual API key.
+
+5. Start the development server:
+   ```bash
+   npm start
+   ```
+
+6. Open your browser and visit http://localhost:3000 to view the app.
+
+
+## Contributing
+
+If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+
+
+## Acknowledgements
+
+- The Movie Database (TMDB) for providing the API.
+- React.js community for the powerful front-end library.
